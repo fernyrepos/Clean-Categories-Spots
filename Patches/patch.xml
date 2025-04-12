@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="CraftingSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="CraftingSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="CraftingSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="AnimalSleepingSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnimalSleepingSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="AnimalSleepingSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="SleepingSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="SleepingSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="SleepingSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="DoubleSleepingSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="DoubleSleepingSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="DoubleSleepingSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="ButcherSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="ButcherSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="ButcherSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="PartySpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PartySpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="PartySpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="CaravanPackingSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="CaravanPackingSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="CaravanPackingSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="MarriageSpot"]/uiOrder</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="MarriageSpot"]/uiOrder</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="MarriageSpot"]</xpath>
+                    <value>
+                        <uiOrder>99999</uiOrder>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+
+</Patch>

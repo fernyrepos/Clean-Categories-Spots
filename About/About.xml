@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Clean Categories: Spots</name>
+	<author>ferny</author>
+	<packageId>ferny.categoriesspots</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Moves all colony-based spots to the zone menu.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>regrowth.botr.core</li>
+		<li>mlie.smartervisitors</li>
+		<li>mlie.enterhere</li>
+		<li>sarg.alphaprefabs</li>
+		<li>vanillastorytellersexpanded.winstonwave</li>
+		<li>oskarpotocki.vfe.tribals</li>
+		<li>oskarpotocki.vanillafactionsexpanded.core</li>
+		<li>grizzlemethis.tradingspot.rw</li>
+		<li>smashphil.dropspot</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<li>hoeenhero.iceblocks</li>
+		<li>thek.guardingp</li>
+		<li>mlie.prisonerarena</li>
+		<li>vanillaracesexpanded.android</li>
+		<li>nightmare.museums</li>
+		<li>mlie.runandhide</li>
+		<li>rooboid.minotaur</li>
+		<li>Mlie.AnimalHarvestingSpot</li>
+		<li>ferny.progressionagriculture</li>
+	</loadAfter>
+</ModMetaData>

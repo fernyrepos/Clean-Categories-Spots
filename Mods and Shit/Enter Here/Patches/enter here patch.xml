@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="EnterHereSpot"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Zone</designationCategory>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="EnterHereSpot"]/label</xpath>
+                    <value>
+                        <label>Entrance spot</label>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationConditional">
+                <success>Always</success>
+                    <xpath>/Defs/ThingDef[defName="EnterHereSpot"]/uiOrder</xpath>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName="EnterHereSpot"]/uiOrder</xpath>
+                                <value>
+                                    <uiOrder>99999</uiOrder>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                    <nomatch Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>/Defs/ThingDef[defName="EnterHereSpot"]</xpath>
+                                <value>
+                                    <uiOrder>99999</uiOrder>
+                                </value>
+                            </li>
+                        </operations>
+                    </nomatch>
+                </Operation>
+
+</Patch>

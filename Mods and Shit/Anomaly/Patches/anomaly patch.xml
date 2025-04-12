@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+                <Operation Class="PatchOperationConditional">
+                <success>Always</success>
+                    <xpath>/Defs/ThingDef[defName="HoldingSpot"]/uiOrder</xpath>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName="HoldingSpot"]/uiOrder</xpath>
+                                <value>
+                                    <uiOrder>99999</uiOrder>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                    <nomatch Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>/Defs/ThingDef[defName="HoldingSpot"]</xpath>
+                                <value>
+                                    <uiOrder>99999</uiOrder>
+                                </value>
+                            </li>
+                        </operations>
+                    </nomatch>
+                </Operation>
+
+</Patch>

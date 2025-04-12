@@ -1,0 +1,28 @@
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="regrowth.botr.core">Mods and Shit/Regrowth Core</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Mods and Shit/Royalty</li>
+    <li IfModActive="mlie.smartervisitors">Mods and Shit/Smarter Visitors</li>
+    <li IfModActive="mlie.enterhere">Mods and Shit/Enter Here</li>
+    <li IfModActive="sarg.alphaprefabs">Mods and Shit/Alpha Prefabs</li>
+    <li IfModActive="vanillastorytellersexpanded.winstonwave">Mods and Shit/Winston Waves</li>
+    <li IfModActive="oskarpotocki.vfe.tribals">Mods and Shit/VFE Tribals</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">Mods and Shit/VE Framework</li>
+    <li IfModActive="grizzlemethis.tradingspot.rw">Mods and Shit/Trading Spot</li>
+    <li IfModActive="smashphil.dropspot">Mods and Shit/Trade Ship Drop Spot</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="hoeenhero.iceblocks">Mods and Shit/Ice Blocks</li>
+    <li IfModActive="thek.guardingp">Mods and Shit/Guarding Pawns</li>
+    <li IfModActive="mlie.prisonerarena">Mods and Shit/Prisoner Arena</li>
+    <li IfModActive="vanillaracesexpanded.android">Mods and Shit/VRE Androids</li>
+    <li IfModActive="Ludeon.Rimworld.Biotech">Mods and Shit/Biotech</li>
+    <li IfModActive="nightmare.museums">Mods and Shit/Museums</li>
+    <li IfModActive="mlie.runandhide">Mods and Shit/Run and Hide</li>
+    <li IfModActive="Ludeon.Rimworld.Anomaly">Mods and Shit/Anomaly</li>
+    <li IfModActive="Ludeon.Rimworld.Ideology">Mods and Shit/Ideology</li>
+    <li IfModActive="rooboid.minotaur">Mods and Shit/Roo Minotaur</li>
+    <li IfModActive="Mlie.AnimalHarvestingSpot">Mods and Shit/Animal Harvesting Spot</li>
+    <li IfModActive="ferny.progressionagriculture">Mods and Shit/Progression Agriculture</li>
+  </v1.5>
+</loadFolders>

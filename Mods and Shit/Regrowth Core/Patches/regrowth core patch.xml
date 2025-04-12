@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+	<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+	  <xpath>/Defs/DesignationCategoryDef[defName="Joy"]/specialDesignatorClasses</xpath>
+	  <value>
+        <li>ReGrowthCore.Designator_ZoneAdd_Bathe</li>
+	  </value>
+	</Operation>
+
+</Patch>
