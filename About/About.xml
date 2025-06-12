@@ -5,6 +5,7 @@
 	<packageId>ferny.categoriesspots</packageId>
 	<supportedVersions>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>Moves all colony-based spots to the zone menu.</description>
 	<loadAfter>
