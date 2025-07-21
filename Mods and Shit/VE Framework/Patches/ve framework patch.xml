@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>   
 
-                <Operation Class="PatchOperationAdd">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="VEF_OutpostDeliverySpot"]</xpath>
-                    <value>
-                        <designationCategory>Zone</designationCategory>
-                    </value>
+                <Operation Class="PatchOperationConditional">
+                <success>Always</success>
+                    <xpath>/Defs/ThingDef[defName="VEF_OutpostDeliverySpot"]/designationCategory</xpath>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName="VEF_OutpostDeliverySpot"]/designationCategory</xpath>
+                                <value>
+                                    <designationCategory>Zone</designationCategory>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                    <nomatch Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>/Defs/ThingDef[defName="VEF_OutpostDeliverySpot"]</xpath>
+                                <value>
+                                    <designationCategory>Zone</designationCategory>
+                                </value>
+                            </li>
+                        </operations>
+                    </nomatch>
                 </Operation>
 
+
+
+
+
+                
                 <Operation Class="PatchOperationConditional">
                 <success>Always</success>
                     <xpath>/Defs/ThingDef[defName="VEF_OutpostDeliverySpot"]/uiOrder</xpath>

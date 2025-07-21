@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>   
- 
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="PatientLandingSpot"]/label</xpath>
+                    <value>
+                        <label>patient landing spot</label>
+                    </value>
+                </Operation>
                 <Operation Class="PatchOperationConditional">
                 <success>Always</success>
-                    <xpath>/Defs/ThingDef[defName="Building_ArenaBell"]/uiOrder</xpath>
+                    <xpath>/Defs/ThingDef[defName="PatientLandingSpot"]/uiOrder</xpath>
                     <match Class="PatchOperationSequence">
                         <operations>
                             <li Class="PatchOperationReplace">
-                                <xpath>/Defs/ThingDef[defName="Building_ArenaBell"]/uiOrder</xpath>
+                                <xpath>/Defs/ThingDef[defName="PatientLandingSpot"]/uiOrder</xpath>
                                 <value>
                                     <uiOrder>99999</uiOrder>
                                 </value>
@@ -17,7 +23,7 @@
                     <nomatch Class="PatchOperationSequence">
                         <operations>
                             <li Class="PatchOperationAdd">
-                                <xpath>/Defs/ThingDef[defName="Building_ArenaBell"]</xpath>
+                                <xpath>/Defs/ThingDef[defName="PatientLandingSpot"]</xpath>
                                 <value>
                                     <uiOrder>99999</uiOrder>
                                 </value>
@@ -25,21 +31,4 @@
                         </operations>
                     </nomatch>
                 </Operation>
-
-                <Operation Class="PatchOperationAdd">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="Building_ArenaBell"]</xpath>
-                    <value>
-                        <designationCategory>Zone</designationCategory>
-                    </value>
-                </Operation>
-
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="Building_ArenaBell"]/label</xpath>
-                    <value>
-                        <label>Prison arena spot</label>
-                    </value>
-                </Operation>
-
 </Patch>

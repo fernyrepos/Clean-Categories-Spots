@@ -24,5 +24,6 @@
     <li IfModActive="rooboid.minotaur">Mods and Shit/Roo Minotaur</li>
     <li IfModActive="Mlie.AnimalHarvestingSpot">Mods and Shit/Animal Harvesting Spot</li>
     <li IfModActive="ferny.progressionagriculture">Mods and Shit/Progression Agriculture</li>
+    <li IfModActive="adamas.hospital">Mods and Shit/Hospital</li>
   </v1.5>
 </loadFolders>
